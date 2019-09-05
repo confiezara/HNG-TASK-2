@@ -85,6 +85,59 @@ main{
 }
 
 
-#FBDB62
-#E45267
-#0D3A58
+/*CONTACT FORM STYLES*/
+.wrapper{
+    width: 40%;
+    background: inherit;
+    padding: 1em;
+    border: 2px solid #FBDB62;
+}
+
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #FBDB62;
+}
+
+.input_field{
+    width: 100%;
+    margin: 0 auto;
+}
+
+  .input-container{
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  input{
+      display: block;
+      margin-bottom: 1rem;
+      padding: .7rem;
+      width: 85%;
+  }
+
+  .wrapper textarea{
+    width:85%;
+    height: 100px;
+}
+
+  .wrapper input[type="submit"]{
+    border: 0px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1rem;
+    width: 85%;
+    background: #F2807A;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(42, 39, 39);
+    font-weight: 500
+}
